@@ -183,11 +183,11 @@ If you can find an existing Buildroot configuration for your intended hardware:
 
 6. Create a Git patch in your buildroot location and copy that patch to https://github.com/nerves-project/nerves_system_br/tree/2d6f76406813734377bc9dad4dd5017e81ffa129/patches (making sure to adhere to the numerical ordering).
 
-> TODO: what is the Git command to do that?
+  > TODO: what is the Git command to do that?
 
 7. Create a new defconfig which mimics theirs, and get `nerves_system_br` to build it.
 
-> NOTE: You probably want to disable any userland packages that may be included by default to avoid distraction.
+  > NOTE: You probably want to disable any userland packages that may be included by default to avoid distraction.
 
 8. Wrap it all up into a new Nerves system.
 
